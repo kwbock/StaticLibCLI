@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1A192C144DBEB80053DB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1A192B144DBEB80053DB61 /* Foundation.framework */; };
+		FB1A192F144DBEB80053DB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A192E144DBEB80053DB61 /* main.m */; };
+		FB1A1933144DBEB80053DB61 /* StaticLibCLI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB1A1932144DBEB80053DB61 /* StaticLibCLI.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB1A1925144DBEB80053DB61 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FB1A1933144DBEB80053DB61 /* StaticLibCLI.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB1A1927144DBEB80053DB61 /* StaticLibCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticLibCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1A192B144DBEB80053DB61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB1A192E144DBEB80053DB61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB1A1931144DBEB80053DB61 /* StaticLibCLI-Prefix.pch */ = {isa = PBXFileReference; path = "StaticLibCLI-Prefix.pch"; sourceTree = "<group>"; };
+		FB1A1932144DBEB80053DB61 /* StaticLibCLI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StaticLibCLI.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1A1924144DBEB80053DB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1A192C144DBEB80053DB61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1A191C144DBEB80053DB61 = {
+			isa = PBXGroup;
+			children = (
+				FB1A192D144DBEB80053DB61 /* StaticLibCLI */,
+				FB1A192A144DBEB80053DB61 /* Frameworks */,
+				FB1A1928144DBEB80053DB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1A1928144DBEB80053DB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A1927144DBEB80053DB61 /* StaticLibCLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1A192A144DBEB80053DB61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A192B144DBEB80053DB61 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1A192D144DBEB80053DB61 /* StaticLibCLI */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A192E144DBEB80053DB61 /* main.m */,
+				FB1A1932144DBEB80053DB61 /* StaticLibCLI.1 */,
+				FB1A1930144DBEB80053DB61 /* Supporting Files */,
+			);
+			path = StaticLibCLI;
+			sourceTree = "<group>";
+		};
+		FB1A1930144DBEB80053DB61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A1931144DBEB80053DB61 /* StaticLibCLI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1A1926144DBEB80053DB61 /* StaticLibCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1A1936144DBEB80053DB61 /* Build configuration list for PBXNativeTarget "StaticLibCLI" */;
+			buildPhases = (
+				FB1A1923144DBEB80053DB61 /* Sources */,
+				FB1A1924144DBEB80053DB61 /* Frameworks */,
+				FB1A1925144DBEB80053DB61 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticLibCLI;
+			productName = StaticLibCLI;
+			productReference = FB1A1927144DBEB80053DB61 /* StaticLibCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1A191E144DBEB80053DB61 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FB1A1921144DBEB80053DB61 /* Build configuration list for PBXProject "StaticLibCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB1A191C144DBEB80053DB61;
+			productRefGroup = FB1A1928144DBEB80053DB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1A1926144DBEB80053DB61 /* StaticLibCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1A1923144DBEB80053DB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1A192F144DBEB80053DB61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB1A1934144DBEB80053DB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB1A1935144DBEB80053DB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB1A1937144DBEB80053DB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaticLibCLI/StaticLibCLI-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB1A1938144DBEB80053DB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaticLibCLI/StaticLibCLI-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1A1921144DBEB80053DB61 /* Build configuration list for PBXProject "StaticLibCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1A1934144DBEB80053DB61 /* Debug */,
+				FB1A1935144DBEB80053DB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1A1936144DBEB80053DB61 /* Build configuration list for PBXNativeTarget "StaticLibCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1A1937144DBEB80053DB61 /* Debug */,
+				FB1A1938144DBEB80053DB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1A191E144DBEB80053DB61 /* Project object */;
+}
